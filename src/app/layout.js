@@ -23,23 +23,6 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased w-screen h-screen relative overflow-hidden`}
       >
         <RawCarousel />
-        {/* <div className="absolute inset-0 -z-10">
-          <Carousel>
-            <CarouselContent>
-              {carouselImages.map((image, index) => (
-                <CarouselItem key={index}>
-                  <img
-                    src={image.src}
-                    alt={image.alt}
-                    className="w-full h-screen object-cover"
-                  />
-                </CarouselItem>
-              ))}
-            </CarouselContent>
-            <CarouselPrevious className="z-20" />
-            <CarouselNext className="z-20" />
-          </Carousel>
-        </div> */}
         {children}
       </body>
     </html>
