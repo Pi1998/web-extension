@@ -1,8 +1,8 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function Mid() {
   return (
-    <div className="flex flex-col justify-center items-center gap-1.5">
+    <div className="flex flex-col justify-center items-center gap-1.5 text-white">
       <div className="relative">
         <Image
           src="/clock.svg"
@@ -17,7 +17,7 @@ export default function Mid() {
         </span>
         <button className="all-unset cursor-pointer absolute left-full bottom-1/2 w-5 h-5 ml-20">
           <Image
-            src={'/change-cycle.svg'}
+            src={"/change-cycle.svg"}
             width={18}
             height={18}
             alt="change clock format"
